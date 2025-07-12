@@ -51,29 +51,31 @@
           aria-label="Toggle theme"
         ></button>
       </div>
-      <div class="extensions-list-header">Extensions List</div>
-      <div class="filter-buttons">
-        <button
-          onclick="filterExtensions('all')"
-          id="all-extensions"
-          class="filter-button active"
-        >
-          All
-        </button>
-        <button
-          onclick="filterExtensions('active')"
-          id="active-extensions"
-          class="filter-button"
-        >
-          Active
-        </button>
-        <button
-          onclick="filterExtensions('inactive')"
-          id="inactive-extensions"
-          class="filter-button"
-        >
-          Inactive
-        </button>
+      <div class="extension-heading">
+        <div class="extensions-list-header">Extensions List</div>
+        <div class="filter-buttons">
+          <button
+            onclick="filterExtensions('all')"
+            id="all-extensions"
+            class="filter-button active"
+          >
+            All
+          </button>
+          <button
+            onclick="filterExtensions('active')"
+            id="active-extensions"
+            class="filter-button"
+          >
+            Active
+          </button>
+          <button
+            onclick="filterExtensions('inactive')"
+            id="inactive-extensions"
+            class="filter-button"
+          >
+            Inactive
+          </button>
+        </div>
       </div>
       <!-- If you plan to use the JSON file to populate the data dynamically, you can delete the content below -->
       <div class="extensions-wrapper">

@@ -128,7 +128,9 @@ button:focus {
   border-radius: var(--extension-radius);
   box-shadow: 0 4px 4px hsl(var(--neutral-700) / 0.2);
 }
-
+.extension-heading {
+  display: grid;
+}
 /* Add outline to switch when focused */
 .switch input:focus + .slider {
   transition: 0.1s;
@@ -237,6 +239,12 @@ button:focus {
   }
   .header {
     padding: 1rem 2rem;
+  }
+  .extension-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
   }
   .container {
     padding: 2rem;
